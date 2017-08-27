@@ -1,1 +1,17 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="./manifest.json"><link rel="shortcut icon" href="./favicon.ico"><title>React App</title><link href="./static/css/main.cacbacc7.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="./static/js/main.ffea9862.js"></script></body></html>
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no"><title>vue-tra</title><link href=./static/css/app.caafe17dbb37a335bbea01acbaa6da8a.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.c78418522b8c766b60f2.js></script><script type=text/javascript src=./static/js/vendor.ef596076a68c0140c930.js></script><script type=text/javascript src=./static/js/app.af10b766b470aa5839c9.js></script></body></html><script>(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=1040){
+                  docEl.style.fontSize = '100px';
+                }else{
+                  docEl.style.fontSize = 45 * (clientWidth / 750) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);</script>
